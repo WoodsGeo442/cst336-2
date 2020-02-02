@@ -3,6 +3,12 @@ body{
     color:black;
 }
 
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+
 header, main, nav, footer{
     text-align:center;
 }
@@ -39,8 +45,11 @@ footer{
     color: Maroon;
 }
 
+
 tabel{
+    background-color: #D2691E;
     margin: 0px auto;
+    
 }
 
 td{
@@ -55,8 +64,9 @@ td strong{
 #table-header{
     background-color: #351a00;
 }
+
 .tabel-row{
-    background-color: #753900;
+    background-color: #0000FF;
 }
 
 ul{

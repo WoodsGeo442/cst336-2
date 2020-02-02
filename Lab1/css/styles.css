@@ -19,6 +19,7 @@ nav a{    /*links within "nav" container */
     font-size:1.8em;
     text-decoration: none;    /* removes underline  */
     color: white;    /* by default, links are blue */
+    font-family: 'Indie Flower';
 }
 
 nav a:hover{
@@ -35,9 +36,6 @@ figure, div{
     float:left;
 }
 
-div{
-    word-wrap: break-word;
-}
 
 footer{
     clear:left;
@@ -45,11 +43,8 @@ footer{
     color: Maroon;
 }
 
-
-tabel{
-    background-color: #D2691E;
+table{
     margin: 0px auto;
-    
 }
 
 td{
@@ -65,8 +60,8 @@ td strong{
     background-color: #351a00;
 }
 
-.tabel-row{
-    background-color: #0000FF;
+.table-row{
+    background-color: #D2691E;
 }
 
 ul{
@@ -75,6 +70,10 @@ ul{
 }
 
 .hobby{
-    color: LemonChiffon;
+    color: #A52A2A;
     
+}
+
+#content{
+    float: none;
 }

@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(express.static('Lab1'));
+app.use(express.static('lab1'));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/lab1', lab1Router);

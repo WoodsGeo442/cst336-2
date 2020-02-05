@@ -1,0 +1,26 @@
+header, nav{
+    text-align: center;
+}
+
+nav a{
+    color: orange;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-size: 1.8em;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border-bottom:2px;
+    font-size: 2em;
+    transition: .9s;
+}
+
+body{
+    background-color: maroon;
+}
+
+header{
+    text-shadow: -4px 3px 3px white;
+    font-size: 2em;
+}

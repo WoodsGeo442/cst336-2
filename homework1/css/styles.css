@@ -25,8 +25,21 @@ header{
     font-size: 2em;
 }
 
-figure img{
+figure1 img{
     float: left;
-    width:600px;
+    width:500px;
     height: auto;
+    padding-top: 20px;
+}
+
+figure2 img{
+    float: right;
+    width:400px;
+    height: auto;
+    padding-top: 20px;
+}
+
+div{
+    float: none;
+    text-align: center;
 }

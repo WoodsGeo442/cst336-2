@@ -2,8 +2,12 @@ header, nav{
     text-align: center;
 }
 
+body{
+    background-color: darksalmon;
+}
+
 nav a{
-    color: orange;
+    color: black;
     padding-right: 15px;
     padding-left: 15px;
     font-size: 1.8em;
@@ -16,11 +20,13 @@ nav a:hover{
     transition: .9s;
 }
 
-body{
-    background-color: maroon;
+header{
+    text-shadow: -2px 2px 3px white;
+    font-size: 2em;
 }
 
-header{
-    text-shadow: -4px 3px 3px white;
-    font-size: 2em;
+figure img{
+    float: left;
+    width:600px;
+    height: auto;
 }

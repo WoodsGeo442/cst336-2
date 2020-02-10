@@ -39,7 +39,8 @@ figure2 img{
     padding-top: 20px;
 }
 
-div{
+div {
     float: none;
     text-align: center;
+    font-size: 1.3em;
 }

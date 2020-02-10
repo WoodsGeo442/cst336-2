@@ -20,7 +20,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(express.static('GuessNumber'));
+app.use(express.static('hw1'));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/hw1', hw1Router);
